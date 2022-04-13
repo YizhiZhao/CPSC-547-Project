@@ -3,7 +3,7 @@ import numpy as np
 
 
 # SPECIFY The `trotter_steps` you want to evaluate on
-MY_TROTTER_STEPS = 7
+MY_TROTTER_STEPS = 8
 TARGET_TIME = np.pi  # we'll not change this, you can use it for convenience
 
 # Parameterize variable t to be evaluated at t=pi later
