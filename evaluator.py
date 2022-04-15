@@ -1,4 +1,4 @@
-from starter import MY_TROTTER_STEPS, my_trotter  # feel free to replace to your module
+from project import MY_TROTTER_STEPS, my_trotter  # feel free to replace to your module
 
 """
 Recommended development procedure:
@@ -13,7 +13,7 @@ if USE_NOISELESS_SIMULATOR:
     print("\033[93m[warning] this result is not for grading\033[0m")
 else:
     from qiskit import IBMQ
-    assert False, "please fill in your token from IBM-Q"
+    #assert False, "please fill in your token from IBM-Q"
     # IBMQ.save_account(XXX)  # replace TOKEN with your API token string (https://quantum-computing.ibm.com/lab/docs/iql/manage/account/ibmq)
     IBMQ.load_account()
     if USE_REAL_JAKARTA:
